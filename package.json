@@ -2,9 +2,9 @@
   "name": "fakeb",
   "version": "1.0.0",
   "description": "It consist of all the fake JSON data",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "json:server": "json-server --watch db.json"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
