@@ -4,7 +4,8 @@
   "description": "It consist of all the fake JSON data",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "deploy": "git push heroku main"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
     "url": "https://github.com/balajipatnam/fakedb/issues"
   },
   "homepage": "https://github.com/balajipatnam/fakedb#readme",
+  "appURL": "https://bp-fakedb.herokuapp.com",
   "dependencies": {
     "json-server": "^0.16.3"
   }
